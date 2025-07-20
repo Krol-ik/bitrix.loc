@@ -1,0 +1,25 @@
+html, body {
+    height: 100%; /* Важно для flexbox */
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Минимальная высота = 100% viewport */
+}
+
+main {
+    flex: 1; /* Растягиваем контент, чтобы подвал прижался вниз */
+}
+
+/* Стили для подвала (опционально) */
+.footer {
+
+
+}
+
+.dark { background: #222; padding: 15px; color: white}
+h1{ color: black}
+p{ color: black}
